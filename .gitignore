@@ -1,0 +1,13 @@
+# Inputs. Get them with `make data` (see README). The small Westchester files
+# that are committed were force-added.
+Data/
+.Rhistory
+.RData
+.Rproj.user/
+.claude/
+.DS_Store
+
+# Outputs over GitHub's 100 MB single-file limit. Regenerable with `make`.
+Results/Exposure_boot_NO2_tract.RData
+Results/Exposure_boot_PM2.5_tract.RData
+Results/Health_benefit_conc_reduction_scenario_tract.RData
